@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+      "module": "commonjs",
+      "esModuleInterop": true,
+      "target": "es6",
+      "moduleResolution": "node",
+      "sourceMap": true,
+      "outDir": "dist",
+      "allowJs": true,
+      "noImplicitAny": true,
+      "resolveJsonModule": true,
+      "checkJs": true,
+      "skipLibCheck": true,
+      "experimentalDecorators": true,
+      "emitDecoratorMetadata": true,
+      "types": [
+        "node"
+      ],
+      // "strictNullChecks": true,
+      //   "strictFunctionTypes": true
+  },
+  "lib": [
+      "es2015"
+  ],
+  "exclude": [
+      "node_modules",
+      "dist"
+  ]
+}
